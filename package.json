@@ -1,0 +1,21 @@
+{
+  "name": "rawheaders2obj",
+  "version": "0.0.1-beta",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "transform",
+    "req/res",
+    "rawHeaders",
+    "without",
+    "lowercase"
+  ],
+  "author": "Mrjing",
+  "license": "ISC",
+  "devDependencies": {
+    "tape": "^5.3.1"
+  }
+}
