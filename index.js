@@ -154,7 +154,6 @@ function getObjFromRawHeaders(rawHeaders)  {
 function addHeaderLine(field, value ,dest) {
     let transformField = matchKnownFields(field);
     const flag = transformField.charCodeAt(0);
-    console.log(field, value, flag)
   if (flag === 0 || flag === 2) {
     transformField = transformField.slice(1);
     // Make a delimited list
