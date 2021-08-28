@@ -1,11 +1,16 @@
 {
   "name": "rawheaders2obj",
   "version": "0.0.1-beta",
-  "description": "",
+  "description": "parse http rawHeaders to object without lowercase.",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mrjing/node-rawHeaders2Obj"
+  },
+  "homepage": "https://github.com/Mrjing/node-rawHeaders2Obj",
   "keywords": [
     "transform",
     "req/res",
@@ -14,7 +19,7 @@
     "lowercase"
   ],
   "author": "Mrjing",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "tape": "^5.3.1"
   }
