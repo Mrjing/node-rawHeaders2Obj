@@ -1,6 +1,6 @@
 {
   "name": "rawheaders2obj",
-  "version": "0.0.1-beta",
+  "version": "0.0.1",
   "description": "parse http rawHeaders to object without lowercase.",
   "main": "index.js",
   "scripts": {
